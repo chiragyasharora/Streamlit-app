@@ -26,3 +26,5 @@ ticker_df = ticker_data.history(start=start_dt,
 st.dataframe(ticker_df)
 
 st.line_chart(ticker_df.Close)
+
+st.line_chart(ticker_df.Open)
